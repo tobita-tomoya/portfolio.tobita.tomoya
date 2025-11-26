@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*c4-05-2*/
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/*レイアウト*/
+body{
+	background-image: url(../images/pktx.back.webp);
+	background-size: cover;
+}
+.align-center{
+	text-align: center;
+	color: white;
+}
+
+/* 見出し*/
+.font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
+}
+.page-title,
+.heading-large,
+.heading-medium
+{
+	font-size: 3rem;
+	text-align: center;
+}
+.cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 300px;
+}
+.cover-home {
+    background-image: url(../images/used-clothing-home.jpg);
+}
+/* ヘッダー*/
+
+.page-header{
+	padding-top: 5rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+.main-nav a {
+    color: white;
+}
+.main-nav a:hover {
+    color: yellow;
+}
+/*  アイコン  */
+.section-icon {
+    width: 40px;        
+    height: auto;       
+    margin-right: 10px; 
+   } 
+/*  本文　*/
+h2{
+	color: brown;
+}
+.about{
+	 text-align: center;
+}
+p{
+	 color:black;
+	 margin-bottom: 20px;	 
+}
+.item1{
+	color: black;
+	flex-grow: 1; 
+	
+}
+.container1{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;      
+    padding: 0 20px;
+}
+.container2{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.item2{
+	color: black;
+	margin: 20px;
+	padding: 20px;
+}
+/*    問い合わせボックス      */
+input[type="text"],
+textarea {
+	
+     border: 2px solid black;
+}
